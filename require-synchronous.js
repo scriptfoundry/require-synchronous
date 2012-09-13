@@ -1,3 +1,10 @@
+/*
+Copyright (c) 2012 Andrew Adamson
+
+Released under the MIT license
+http://opensource.org/licenses/mit-license.php
+*/
+
 (function () {
 	var self = {},
 		originalDefine = window.define,
