@@ -42,8 +42,8 @@ Notes
 -----
 
 require-synchronous temporarily overrides any existing methods called
-`require()` and `declare()` and restores them as soon as it is completed. This
-means that at present it can only be used once (every time `require()` is
+`require()` and `define()` and restores them as soon as it is completed. This
+means that at present idt can only be used once (every time `require()` is
 invoked, the previous version of require will be restored.) If you find you
 need to use this code several times on one page, you should probably consider
 more serious architectural changes.
